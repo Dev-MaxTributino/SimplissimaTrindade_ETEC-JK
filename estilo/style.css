@@ -1,0 +1,56 @@
+html{
+    background-color: blueviolet;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-self:stretch;
+    height: 100%;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.esquerda h1{
+    margin: 1%;
+    font-size: 10vh;
+}
+
+.esquerda p{
+    margin: 0px;
+    font-size: 2vw;
+}
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 40%;
+    max-height: 100%;
+    padding-left: 3%;
+    padding-top: 5%;
+    font-size: 3vh;
+}
+
+.direita p{
+    padding-bottom: 8vh;
+    font-size: 4vw;
+}
+
+.direita input{
+    width: 70%;
+    font-size: 1vw;
+}
